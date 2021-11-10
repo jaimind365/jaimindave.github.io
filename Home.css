@@ -1,0 +1,148 @@
+/* CSS Document */ 
+body
+{
+    /*background-color: antiquewhite;*/
+    margin: auto;
+}
+
+.Class1
+{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    color: rgb(0, 72, 85);
+    /*background-color:rgb(255, 232, 181);*/
+    width: 800px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgb(0, 72, 85);  
+}
+.Class2
+{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgb(0, 72, 85);
+    width: 800px;
+    line-height: 200px;
+    text-align:center;
+    text-indent: 300px;
+    background-image: url("images/window.jpg");
+    background-size: 300px;
+    border: 1px solid rgb(0, 84, 95); 
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.Class3
+{
+font-size: medium;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: auto;
+padding: 5px;
+color: rgb(0, 72, 85);
+/*background-color: cyan;*/
+border: 1px solid rgb(0, 72, 85); 
+width: 800px;
+line-height: 30px;
+text-align: center;
+}
+
+.Class4
+{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgb(0, 72, 85);
+    width: 800px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+.container
+{
+    margin: auto;
+    padding: 10px;
+    /*background-color: hotpink;*/
+    width: 800px;
+    height: auto;
+}
+
+#One
+{
+    margin: auto;
+    font-size: large;
+    font-style:italic;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 15, 102);
+    /*background-color: rgb(42, 136, 165);
+    /*border: 1px solid rgb(0, 84, 95); 
+    /*width: 150px;*/
+    float:left;
+}
+
+#Two
+{
+    margin: auto;
+    font-size: large;
+    font-style: italic;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(59, 41, 0);
+    /*background-color: rgb(42, 136, 165);
+    /*border: 1px solid rgb(0, 84, 95); 
+    width: 150px;*/
+    float:left;
+}
+
+#Three
+{
+        margin: auto;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(40, 126, 184);
+        background-color: rgb(247, 247, 247);
+        /*width: 200px;*/
+        float:left;
+}
+
+#Four
+{
+        margin: auto;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(160, 5, 0);
+        background-color: rgb(247, 247, 247);
+        /*width: 150px;*/
+        float:left;
+}
+
+a:link
+{
+        color: rgb(0, 0, 0);
+        text-decoration:black;
+}
+        a:hover
+        {
+            color: darkgoldenrod;
+            text-decoration: underline;
+        }
+        a:visited
+        {
+            color: inherit;
+        }
+        a:active
+        {
+            color:yellow;
+        }
