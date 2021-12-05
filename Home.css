@@ -94,10 +94,10 @@ height:40px;
 .container
 {
     margin: auto;
-    padding: 10px;
-    /*background-color: hotpink;*/
+    padding: 0px;
     width: 800px;
     height: auto;
+
 }
 
 #One
@@ -107,7 +107,8 @@ height:40px;
     font-style:italic;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 15, 102);
+    /*color: rgb(0, 15, 102);*/
+    color: darkviolet;
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     /*width: 150px;*/
@@ -121,7 +122,8 @@ height:40px;
     font-style: italic;
     font-weight:bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(59, 41, 0);
+    /*color: rgb(59, 41, 0);*/
+    color: darkviolet;
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     width: 150px;*/
@@ -135,9 +137,9 @@ height:40px;
         font-style: italic;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(40, 126, 184);
-        background-color: rgb(247, 247, 247);
-        /*width: 200px;*/
+        /*color: rgb(40, 126, 184);*/
+        color: darkviolet;
+                /*width: 200px;*/
         float:left;
 }
 
@@ -148,21 +150,21 @@ height:40px;
         font-style: italic;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(160, 5, 0);
-        background-color: rgb(247, 247, 247);
+        color: darkviolet;
+        /*background-color: rgb(247, 247, 247);*/
         /*width: 150px;*/
         float:left;
 }
 
 a:link
 {
-        color: rgb(0, 0, 0);
+        color: #ff4800;
         text-decoration:black;
 }
         a:hover
         {
-            color: darkgoldenrod;
-            text-decoration: underline;
+            color: darkviolet;
+            /*text-decoration: underline;*/
         }
         a:visited
         {
@@ -170,7 +172,7 @@ a:link
         }
         a:active
         {
-            color:yellow;
+            color:#ff4800;
         }
         .hvrbox,
         .hvrbox * {
@@ -199,7 +201,7 @@ a:link
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.6);
-            color: #fff;
+            /*color: #fff;*/
             padding: 15px;
             -moz-transition: all 0.4s ease-in-out 0s;
             -webkit-transition: all 0.4s ease-in-out 0s;
@@ -224,8 +226,9 @@ a:link
         }
         .hvrbox .hvrbox-text_mobile {
             font-size: 15px;
-            border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-            border-top: 1px solid rgba(179, 179, 179, 0.7);
+            /*border-top: 1px solid rgb(179, 179, 179);*/
+            /* for old browsers */
+            /*border-top: 1px solid rgba(179, 179, 179, 0.7);*/
             margin-top: 5px;
             padding-top: 2px;
             display: none;
