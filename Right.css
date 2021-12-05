@@ -107,7 +107,8 @@ height:40px;
     font-style:italic;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 15, 102);
+    /*color: rgb(0, 15, 102);*/
+    color: darkviolet;
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     /*width: 150px;*/
@@ -121,7 +122,8 @@ height:40px;
     font-style: italic;
     font-weight:bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(59, 41, 0);
+    /*color: rgb(59, 41, 0);*/
+    color: darkviolet;
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     width: 150px;*/
@@ -135,7 +137,8 @@ height:40px;
         font-style: italic;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(40, 126, 184);
+        /*color: rgb(40, 126, 184);*/
+        color: darkviolet;
         background-color: rgb(247, 247, 247);
         /*width: 200px;*/
         float:left;
@@ -148,7 +151,8 @@ height:40px;
         font-style: italic;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(160, 5, 0);
+        /*color: rgb(160, 5, 0);*/
+        color: darkviolet;
         background-color: rgb(247, 247, 247);
         /*width: 150px;*/
         float:left;
@@ -156,13 +160,13 @@ height:40px;
 
 a:link
 {
-        color: rgb(0, 0, 0);
+        color: #ff4800;
         text-decoration:black;
 }
         a:hover
         {
-            color: darkgoldenrod;
-            text-decoration: underline;
+            color: darkviolet;
+            /*text-decoration: underline;*/
         }
         a:visited
         {
@@ -170,7 +174,7 @@ a:link
         }
         a:active
         {
-            color:yellow;
+            color:#ff4800;
         }
         .hvrbox,
         .hvrbox * {

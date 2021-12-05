@@ -106,7 +106,8 @@ height:40px;
     font-style:italic;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 15, 102);
+    color: darkviolet;
+    /*color: rgb(0, 15, 102);*/
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     /*width: 150px;*/
@@ -120,7 +121,8 @@ height:40px;
     font-style: italic;
     font-weight:bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(59, 41, 0);
+    /*color: rgb(59, 41, 0);*/
+    color: darkviolet;
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     width: 150px;*/
@@ -134,8 +136,9 @@ height:40px;
         font-style: italic;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(40, 126, 184);
-        background-color: rgb(247, 247, 247);
+        /*color: rgb(40, 126, 184);*/
+        color: darkviolet;
+        /*background-color: rgb(247, 247, 247);*/
         /*width: 200px;*/
         float:left;
 }
@@ -147,8 +150,9 @@ height:40px;
         font-style: italic;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(160, 5, 0);
-        background-color: rgb(247, 247, 247);
+        /*color: rgb(160, 5, 0);*/
+        color: darkviolet;
+        /*background-color: rgb(247, 247, 247);*/
         /*width: 150px;*/
         float:left;
 }
@@ -162,7 +166,7 @@ a:link
         a:hover
         {
             color:darkviolet;
-            text-decoration: underline;
+            /*text-decoration: underline;*/
         }
         a:visited
         {
@@ -170,7 +174,7 @@ a:link
         }
         a:active
         {
-            color:yellow;
+            color:#ff4800;
         }
         .hvrbox,
         .hvrbox * {
@@ -224,8 +228,8 @@ a:link
         }
         .hvrbox .hvrbox-text_mobile {
             font-size: 15px;
-            border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-            border-top: 1px solid rgba(179, 179, 179, 0.7);
+            /*border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+            /*border-top: 1px solid rgba(179, 179, 179, 0.7);*/
             margin-top: 5px;
             padding-top: 2px;
             display: none;
