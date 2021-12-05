@@ -1,0 +1,235 @@
+/* CSS Document */ 
+body
+{
+    /*background-color: antiquewhite;*/
+    margin: auto;
+}
+
+.Class1
+{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    color: darkviolet;
+    /*background-color:rgb(255, 232, 181);*/
+    /*background-color:rgb(240, 36, 0);*/
+    /*rgb(0,72,85)*/
+    width: 800px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgb(255, 102, 0);
+    /*border: 1px solid rgb(0, 72, 85);*/  
+}
+.Class2
+{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    /*background-color: #ff4800;final*/
+    background-color:rgb(54, 54, 54);
+    /*background-color: rgb(140, 0, 220);*/
+    width: 800px;
+    /*line-height: 200px;*/
+    text-align:right;
+    text-indent: 50%;
+    background-image: url("images/prof.jpg");
+    background-size: 200px;
+    border: 1px solid rgb(255, 102, 0); 
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.Class3
+{
+font-size: medium;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: auto;
+padding: 5px;
+/*color: rgb(0, 153, 255);*/
+color:darkviolet;
+/*background-color: cyan;*/
+border: 1px solid rgb(255, 102, 0);
+width: 800px;
+line-height: 30px;
+text-align: center;
+}
+/*.Class5
+{
+    background-color: #ff4800;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    border: 1px solid rgb(255, 102, 0);
+
+}*/
+.footer
+{
+margin:0px auto;
+padding:5px;
+width:800px;
+position:relative;
+background-color:none;
+height:40px;
+}
+.Class4
+{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: darkviolet;
+    width: 800px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+.container
+{
+    margin: auto;
+    padding: 10px;
+    /*background-color: hotpink;*/
+    width: 800px;
+    height: auto;
+}
+
+#One
+{
+    margin: auto;
+    font-size: large;
+    font-style:italic;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 15, 102);
+    /*background-color: rgb(42, 136, 165);
+    /*border: 1px solid rgb(0, 84, 95); 
+    /*width: 150px;*/
+    float:left;
+}
+
+#Two
+{
+    margin: auto;
+    font-size: large;
+    font-style: italic;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(59, 41, 0);
+    /*background-color: rgb(42, 136, 165);
+    /*border: 1px solid rgb(0, 84, 95); 
+    width: 150px;*/
+    float:left;
+}
+
+#Three
+{
+        margin: auto;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(40, 126, 184);
+        background-color: rgb(247, 247, 247);
+        /*width: 200px;*/
+        float:left;
+}
+
+#Four
+{
+        margin: auto;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(160, 5, 0);
+        background-color: rgb(247, 247, 247);
+        /*width: 150px;*/
+        float:left;
+}
+
+a:link
+{
+        color:rgb(255, 102, 0);
+        text-decoration:black;
+        font-size: large;
+}
+        a:hover
+        {
+            color:darkviolet;
+            text-decoration: underline;
+        }
+        a:visited
+        {
+            color: inherit;
+        }
+        a:active
+        {
+            color:yellow;
+        }
+        .hvrbox,
+        .hvrbox * {
+            box-sizing: border-box;
+        }
+        .hvrbox {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            max-width: 100%;
+            height: auto;
+        }
+        .hvrbox img {
+            max-width: 100%;
+        }
+        .hvrbox .hvrbox-layer_bottom {
+            display: block;
+        }
+        .hvrbox .hvrbox-layer_top {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 15px;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -ms-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+        .hvrbox:hover .hvrbox-layer_top,
+        .hvrbox.active .hvrbox-layer_top {
+            opacity: 1;
+        }
+        .hvrbox .hvrbox-text {
+            text-align: center;
+            font-size: 18px;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .hvrbox .hvrbox-text_mobile {
+            font-size: 15px;
+            border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+            border-top: 1px solid rgba(179, 179, 179, 0.7);
+            margin-top: 5px;
+            padding-top: 2px;
+            display: none;
+        }
+        .hvrbox.active .hvrbox-text_mobile {
+            display: block;
+        }
