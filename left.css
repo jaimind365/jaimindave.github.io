@@ -324,7 +324,7 @@ a:link
         }
         a:visited
         {
-            color: teal;
+            color: rgb(0, 153, 0);
             /*color: inherit;*/
         }
         a:active
