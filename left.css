@@ -6,12 +6,12 @@ body
 }
 #wrapper
 {
-height:15px;
+height:50px;
 width:800px;
 margin: auto;
 /*background:lightcoral;*/
 position:sticky;
-overflow:scroll;
+/*overflow:scroll;*/
 }
 .header
 {
@@ -31,7 +31,7 @@ float:left;
 .header #navigation
 {
 margin:auto;
-padding:0px 0px 0px 0px;
+padding:20px 0px 0px 0px;
 position: relative;
 }
 .header #navigation ul
@@ -73,10 +73,10 @@ padding:0px 0px 0px 0px;
 	box-shadow: 0px 0px 0px #000;
     text-decoration: none;
     color:#ffffff;
-    padding: 0px 0px 0px 0px;
-    background:indigo;
+    padding: 10px 0px 0px 0px;
+    background:teal;
     margin-left: 0px;
-	height:20px;
+	height:30px;
 	width:160px;
     white-space: nowrap;
 }
@@ -86,7 +86,7 @@ text-align:center;
 float:left;
 background-color:indigo;
 width:50px;
-margin:0px 0px 0px 0px;l
+margin:0px 0px 0px 0px;
 padding:0px 0px 0px 0px;
 	font-size:10px;
 	box-shadow: 0px 0px 0px #000;
@@ -103,11 +103,11 @@ padding:0px 0px 0px 0px;
 .header #navigation ul li a:hover {
 
 margin:0px 0px 0px 0px;
-padding:0px 0px 0px 0px;
-height:20px;
+padding:10px 0px 0px 0px;
+height:30px;
 text-align: center;
 width:160px;
-background-color:orangered;
+background-color:rgb(0, 153, 0);
 }
 .Class1
 {
@@ -131,9 +131,9 @@ background-color:orangered;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
     padding: 5px;
-    color: white;
+    color: rgb(0, 153, 0);
     /*background-color: #ff4800;final*/
-    background-color:rgb(54, 54, 54);
+    background-color:rgb(243, 243, 243);
     /*background-color: rgb(140, 0, 220);*/
     width: 800px;
     /*line-height: 200px;*/
@@ -141,21 +141,21 @@ background-color:orangered;
     text-indent: 50%;
     background-image: url("images/prof.jpg");
     background-size: 200px;
-    border: 1px solid orangered; 
+    border: 1px solid goldenrod; 
     background-repeat: no-repeat;
     height: 200px;
 }
 .Class3
 {
-font-size: medium;
+font-size: large;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin: auto;
-padding: 5px;
+padding: 10px;
 /*color: rgb(0, 153, 255);*/
-color:rgb(45, 45, 45);
-/*background-color: cyan;*/
-border: 1px solid orangered;
-width: 800px;
+color:rgb(243, 243, 243);
+background-color: goldenrod;
+/*border: 1px solid orangered;*/
+width: 780px;
 line-height: 30px;
 text-align: center;
 }
@@ -166,10 +166,24 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin: auto;
 padding: 5px;
 /*color: rgb(0, 153, 255);*/
-color:rgb(45, 45, 45);
+color:teal;
 /*background-color: cyan;*/
-border: 1px solid rgb(45, 45, 45);
+border: 1px solid goldenrod;
 width: 800px;
+line-height: 30px;
+text-align: center;
+}
+.Class7
+{
+font-size: medium;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: auto;
+padding: 10px;
+/*color: rgb(0, 153, 255);*/
+color:rgb(0, 153, 0);
+/*background-color: lightgray;*/
+border: 1px solid goldenrod;
+width: 780px;
 line-height: 30px;
 text-align: center;
 }
@@ -189,15 +203,15 @@ text-align: center;
 }*/
 .Class5
 {
-    background-color: rgb(45, 45, 45);
+    background-color: white;
     width: 800px;
     text-align: center;
     margin: auto;
-    padding: 5px;
+    padding: 0px;
     position: relative;
-    border: 1px solid rgb(45, 45, 45);
+    border: 1px solid white;
 
-}*/
+}
 .footer
 {
 margin:0px auto;
@@ -213,13 +227,13 @@ height:40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
     padding: 5px;
-    color: white;
-    background-color: rgb(45, 45, 45);
+    color: teal;
+    background-color: rgb(243, 243, 243);
     width: 800px;
-    line-height: 15px;
+    line-height: 5px;
     text-align: justify;
     text-indent: 0px;
-    border: 1px solid rgb(45, 45, 45);
+    border: 1px solid goldenrod;
 }
 
 .container
@@ -246,7 +260,7 @@ height:40px;
     font-style:italic;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: orangered;
+    color: goldenrod;
     /*color: rgb(0, 15, 102);*/
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
@@ -262,7 +276,7 @@ height:40px;
     font-weight:bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*color: rgb(59, 41, 0);*/
-    color: orangered;
+    color: goldenrod;
     /*background-color: rgb(42, 136, 165);
     /*border: 1px solid rgb(0, 84, 95); 
     width: 150px;*/
@@ -277,7 +291,7 @@ height:40px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         /*color: rgb(40, 126, 184);*/
-        color: orangered;
+        color: goldenrod;
         /*background-color: rgb(247, 247, 247);*/
         /*width: 200px;*/
         float:left;
@@ -291,7 +305,7 @@ height:40px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         /*color: rgb(160, 5, 0);*/
-        color: orangered;
+        color: goldenrod;
         /*background-color: rgb(247, 247, 247);*/
         /*width: 150px;*/
         float:left;
@@ -299,18 +313,18 @@ height:40px;
 
 a:link
 {
-        color:indigo;
+        color:rgb(0, 153, 0);
         text-decoration:black;
         font-size: small;
 }
         a:hover
         {
-            color:orangered;
+            color:goldenrod;
             /*text-decoration: underline;*/
         }
         a:visited
         {
-            color: indigo;
+            color: teal;
             /*color: inherit;*/
         }
         a:active
